@@ -53,4 +53,13 @@ body {
     background-attachment: fixed;
 }
 
+button {
+    transition: background-color 0.5s, transform 0.3s;
+}
+button:hover {
+    background-color: #ff4081;
+    transform: scale(1.1);
+}
+
+
 
