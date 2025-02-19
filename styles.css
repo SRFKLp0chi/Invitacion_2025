@@ -46,3 +46,11 @@ p {
     background-color: #6b4530;
 }
 
+body {
+    background-image: url('URL_DE_LA_IMAGEN');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
