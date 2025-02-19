@@ -1,5 +1,3 @@
-emailjs.init("KHCoH9ezm2dDb_dW0"); // Reemplaza con tu User ID de EmailJS
-
 document.getElementById("confirmarAsistencia").addEventListener("submit", function(event) {
     event.preventDefault(); // Evita que la página se recargue
 
@@ -14,7 +12,8 @@ document.getElementById("confirmarAsistencia").addEventListener("submit", functi
     emailjs.send("service_matrimonio25", "template_CamyRod", {
         nombre: nombre,
         email: email
-    }).then(function(response) {
+    }, "KHCoH9ezm2dDb_dW0")  // Asegúrate de colocar aquí tu API Key real
+    .then(function(response) {
         alert("¡Confirmación enviada correctamente!");
     }, function(error) {
         alert("Error al enviar la confirmación. Revisa la consola.");
