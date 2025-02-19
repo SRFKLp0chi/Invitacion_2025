@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Boda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bruno & Valen</h1>
+        <p>Nos casamos y queremos que seas parte de este momento especial.</p>
+        
+        <!-- Música -->
+        <audio controls>
+            <source src="cancion.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+
+        <!-- Confirmación de asistencia -->
+        <h2>¿Asistirás?</h2>
+        <form action="https://formsubmit.co/tu-correo@gmail.com" method="POST">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Correo" required>
+            <select name="asistencia">
+                <option value="Sí, asistiré">Sí, asistiré</option>
+                <option value="No podré asistir">No podré asistir</option>
+            </select>
+
+            <!-- Elección del menú -->
+            <h2>Elige tu menú</h2>
+            <select name="menu">
+                <option value="Carne">Carne</option>
+                <option value="Pescado">Pescado</option>
+                <option value="Vegetariano">Vegetariano</option>
+            </select>
+
+            <button type="submit">Confirmar</button>
+        </form>
+    </div>
+</body>
+</html>
