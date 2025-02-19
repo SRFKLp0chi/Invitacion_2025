@@ -1,6 +1,6 @@
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script src="script.js"></script>
-emailjs.init("matrimonio.camiloyrodrigo"); // Reemplaza con tu User ID de EmailJS
+emailjs.init("KHCoH9ezm2dDb_dW0"); // Reemplaza con tu User ID de EmailJS
 
 document.getElementById("confirmarAsistencia").addEventListener("submit", function(event) {
     event.preventDefault();
