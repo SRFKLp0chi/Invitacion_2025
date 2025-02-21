@@ -57,6 +57,15 @@ button {
     transition: background-color 0.5s, transform 0.3s;
 }
 
+.seccion {
+  margin-bottom: 100px; /* Separa cada sección */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 
 
 
