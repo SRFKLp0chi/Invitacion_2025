@@ -57,7 +57,7 @@ button {
     transition: background-color 0.5s, transform 0.3s;
 }
 
-.seccion {
+.container {
   margin-bottom: 100px; /* Separa cada sección */
 }
 
