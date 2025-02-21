@@ -61,5 +61,16 @@ button:hover {
     transform: scale(1.1);
 }
 
+.boton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.boton:hover rect {
+  fill: #bba890; /* Cambia el color al pasar el mouse */
+}
+
 
 
