@@ -56,10 +56,6 @@ body {
 button {
     transition: background-color 0.5s, transform 0.3s;
 }
-button:hover {
-    background-color: #ff4081;
-    transform: scale(1.1);
-}
 
 .boton {
   background: none;
@@ -68,9 +64,6 @@ button:hover {
   cursor: pointer;
 }
 
-.boton:hover rect {
-  fill: #bba890; /* Cambia el color al pasar el mouse */
-}
 
 
 
