@@ -8,6 +8,15 @@ body {
     padding: 0;
 }
 
+h1, h2, h3 {
+    margin-bottom: 40px; /* Espacio debajo de los títulos */
+}
+
+p {
+    margin-bottom: 45px; /* Espacio debajo de los párrafos */
+}
+
+
 /* Contenedor principal */
 .container {
     max-width: 600px;
