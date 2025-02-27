@@ -58,8 +58,8 @@ button {
 }
 
 .texto {
-  line-height: 2; /* Más separación entre líneas */
-  margin-bottom: 20px; /* Espacio debajo del párrafo */
+  line-height: 4; /* Más separación entre líneas */
+  margin-bottom: 50px; /* Espacio debajo del párrafo */
 }
 
 
