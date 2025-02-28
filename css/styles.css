@@ -72,7 +72,7 @@ body {
 
 
 /* Botón del mapa */
-.boton-mapa, .btn-confirmacion, #playPauseBtn {
+.btn-confirmacion, #playPauseBtn {
     background-color: #cbbba0;
     color: white;
     padding: 14px 20px;
@@ -84,6 +84,6 @@ body {
     margin: 10px auto;
 }
 
-.boton-mapa:hover, .btn-confirmacion:hover, #playPauseBtn:hover {
+.btn-confirmacion:hover, #playPauseBtn:hover {
     background-color: #7b6a58;
 }
