@@ -6,74 +6,35 @@
     <title>Camilo y Rodrigo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
-    
 <body>
-        <div class="container">
-            <h1>Camilo y Rodrigo</h1>
-            <p>¡Nos casamos y queremos que seas parte de este momento especial!</p>
-            <p><p/>
-            <p>Fecha: 20 de diciembre de 2025</p>
-            <p>Lugar: Camino Loreto 418, Slier eventos</p>
 
+    <div class="container">
+        <h1>Camilo y Rodrigo</h1>
+        <p>¡Nos casamos y queremos que seas parte de este momento especial!</p>
+        <p>Fecha: 20 de diciembre de 2025</p>
+        <p>Lugar: Camino Loreto 418, Slier eventos</p>
 
-            <head>
-                   <style>
-                                    /* Boton de mapa */
-                    .boton-mapa {
-                            background-color: #cbbba0; /* Color verde */
-                            color: white;
-                            padding: 14px 20px;
-                            border: none;
-                            border-radius: 5px;
-                            text-align: center;
-                            text-decoration: none;
-                            display: inline-block;
-                            font-size: 16px;
-                            cursor: pointer;
-                         }
+        <!-- Botón para ver el mapa -->
+        <a href="https://maps.app.goo.gl/eiRynutpVfDPtvDBA" target="_blank" class="boton-mapa">Ver en el mapa</a>
 
-                                .boton-mapa:hover {
-                                background-color: #7b6a58; /* Color más oscuro al pasar el ratón */
-                                }
-                    </style>
-            </head>
-            
-            <body>
-                    <a href="https://maps.app.goo.gl/eiRynutpVfDPtvDBA" target="_blank" class="boton-mapa">Ver en el mapa</a>
-            </body>
+        <!-- Botón para confirmar asistencia -->
+        <h2>¡Te invitamos a nuestra boda!</h2>
+        <p>Por favor, confirma tu asistencia haciendo clic en el siguiente botón:</p>
+        <a href="https://docs.google.com/forms/d/1V6C0e_WuDQgKOuiAu7nzI-6G9zkswSbwOUSKVxT1diY/viewform?pli=1&edit_requested=true&fbzx=-1461778294401249649" 
+           target="_blank" class="btn-confirmacion">Confirma tu asistencia</a>
 
-                        
-
-       <style>
-        /* Estilo básico para el botón */
-        .btn-confirmacion {
-            background-color: #cbbba0; /* Color verde */
-            color: white;
-            padding: 14px 20px;
-            border: none;
-            border-radius: 5px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        .btn-confirmacion:hover {
-            background-color: #7b6a58; /* Color más oscuro al pasar el ratón */
-        }
-    </style>
-</head>
-<body>
-    <h1>¡Te invitamos a nuestra boda!</h1>
-    <p>Por favor, confirma tu asistencia haciendo clic en el siguiente botón:</p>
-    <a href="https://docs.google.com/forms/d/1V6C0e_WuDQgKOuiAu7nzI-6G9zkswSbwOUSKVxT1diY/viewform?pli=1&edit_requested=true&fbzx=-1461778294401249649" target="_blank" class="btn-confirmacion">Confirma tu asistencia</a>
-</body>
-
-
+        <!-- Reproductor de música -->
+        <div class="music-player">
+            <button id="playPauseBtn">▶ Reproducir música</button>
+            <audio id="audio">
+                <source src="audio/DBZ.mp3" type="audio/mp3">
+                Tu navegador no soporta el audio.
+            </audio>
+        </div>
 
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
