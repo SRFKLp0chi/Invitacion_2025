@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón del mapa */
+.boton-mapa, .btn-confirmacion, #playPauseBtn {
+    background-color: #cbbba0;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+.boton-mapa:hover, .btn-confirmacion:hover, #playPauseBtn:hover {
+    background-color: #7b6a58;
+}
