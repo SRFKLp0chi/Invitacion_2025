@@ -14,6 +14,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
 /* From Uiverse.io by vikramsinghnegi */ 
 .center-body {
   background: #202628;
@@ -68,6 +69,7 @@ body {
     top: 0;
   }
 }
+
 
 /* Botón del mapa */
 .boton-mapa, .btn-confirmacion, #playPauseBtn {
