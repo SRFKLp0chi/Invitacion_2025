@@ -1,4 +1,4 @@
-const audio = document.getElementById("audio");
+const audio = document.getElementById("audio.mp3");
 const playPauseBtn = document.getElementById("playPauseBtn");
 
 playPauseBtn.addEventListener("click", function() {
